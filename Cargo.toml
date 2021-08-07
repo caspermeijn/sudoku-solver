@@ -6,7 +6,9 @@
 name = "sudoku-solver"
 version = "0.1.0"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Simple sudoku solver library"
+authors = ["Casper Meijn <casper@meijn.net>"]
+repository = "https://github.com/caspermeijn/sudoku-solver"
+license = "GPL-3.0-or-later"
 
 [dependencies]
