@@ -10,10 +10,12 @@ on:
   pull_request:
     branches: [ main ]
 
+# FIXME: using commitsar@master, because v0.16.0 doesn´t support `main` branch yet
+
 jobs:
   validate-commits:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - name: Commitsar check
-        uses: aevea/commitsar@v0.16.0
+        uses: aevea/commitsar@master
