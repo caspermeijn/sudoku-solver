@@ -15,6 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+use sudoku_solver::print_hello_world;
+
 fn main() {
-    println!("Hello, world!");
+    print_hello_world()
 }
